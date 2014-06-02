@@ -6,8 +6,8 @@ For this assignment, you will create a SINGLE web page about yourself. The purpo
 
 - It must be a one-page site. 
 - The site must use the **HTML5** structure discussed in class
-- The body section must include a header element and footer element.
-- The header element must contain your name.
+- The body section must include a **header** element and **footer** element.
+- The **header** element must contain your name.
 - In the body section, write a description of yourself. Include your background, scholarly interests, work experience, hobbies, and an inspirational quote or any other area of interest. You must have four areas of interest.
 - Use **heading** elements to separate sections.
 - Use **paragraph** elements around each paragraph.
