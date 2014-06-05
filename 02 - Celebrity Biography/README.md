@@ -1,3 +1,5 @@
+##Celebrity Biography
+
 The goal of this assignment is to create a four-page web site that incorporates the HTML5 and CSS3 that you have learned so far in this course. The subject of the site is a celebrity biography. You may choose any celebrity, living or dead.
 
 Pages: The pages of the site should include at least 
