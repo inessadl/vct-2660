@@ -1,3 +1,5 @@
+##Toward Sapience
+
 For this assignment, you will create a home page and one interior page for a non-profit organization called Toward Sapience. 
 You will begin by creating comps in Photoshop. Once you have developed the imagery and layout, you will code the pages using HTML5 and CSS3.
 
