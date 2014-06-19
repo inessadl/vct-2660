@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Helvetica", sans-serif;
+}
+
+h3 { 
+	color: rgb(255,255,255); 
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+h4 {
+	color: rgb(255,255,255); 
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+	color: rgb(0,156,73);
+	padding: 25px 0px 15px 0px
+
+}
+
+a {
+	color: rgb(255,255,255);
+}
+
+/*********** top-content and navigation ***********/
+
+#top {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* cut the image */
+#top img { 
+	width: 200px;
+}
+
+#search-box {
+	float:right;
+	margin-top: 70px;
+	color: rgb(95,95,95);
+}
+
+#search-box input {
+	color: rgb(95,95,95);
+	border-radius: 25px;
+}
+
+#nav-bar {
+	height: 55px;
+	background-color: rgb(27,111,149);
+	background: linear-gradient(rgb(83,167,206), rgb(21,87,117)); 
+}
+
+#nav {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#nav a:link { 
+	text-decoration: none; 
+	color: rgb(255,255,255); 
+}
+#nav a:hover { color: rgb(230,230,230); }
+#nav a:visited { }
+
+#nav ul { list-style-type: none; }
+
+#nav li { 
+	float: left;
+	padding: 20px 75px 0px 0px;
+}
+
+#top-content-home {
+	height: 230px;
+	background-color: rgb(19,37,53);
+}
+
+
+#top-content-title { }
+
+#top-content-news {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(255,255,255);
+	
+}
+
+#top-content-news img { 
+	float: left;
+	margin: 15px 0px 15px 65px;
+}
+
+#top-content-news span { 
+	font-size: 28px; 
+	margin: 0px 0px 7px 0px;
+}
+
+#text { 
+	margin: 25px 0px 0px 75px;
+	/*border: 1px solid yellow;*/
+	width: 400px;
+	float: left;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+#text p { margin-top: 10px; }
+
+#text a:link { text-decoration: none; float: right; color: rgb(255,255,255); }
+#text a:hover { color: rgb(210,210,210); }
+#text a:visited { }
+
+
+#top-content {
+	height: 80px;
+	background-color: rgb(0,156,73)
+}
+
+#top-content-title {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#wrapper {
+	width: 960px;
+	/*border: 1px solid red;*/
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*********** content ***********/
+
+#content-home {
+	height: 280px;
+	background-color: rgb(234,239,246);
+	box-shadow: 0px 5px 5px #888888;
+	padding: 0px;
+	margin-top: 20px;
+	line-height: 1.2;
+}
+
+#content p {
+	width: 620px;
+	color: rgb(50,50,50);
+	line-height: 1.2;
+}
+
+#content img {
+	height: 200px;
+	padding: 20px 10px 20px 0px;
+}
+
+
+#news-bar {
+	color: rgb(255,255,255);
+	font-size: 22px; /* take off */
+	text-align: center;
+	height: 105px;
+}
+
+#news, #events, #scholarships {
+	width: 318px;
+	height: 40px;
+	background-color: rgb(95,95,95);
+	float: left;
+	margin-right: 2px;
+	padding: 15px 0px 15px 0px;
+	margin-top: 30px;
+}
+
+#news a:link, #events a:link, #scholarships a:link {
+	text-decoration: none;
+	color: rgb(255,255,255);
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+#news a:hover, #events a:hover, #scholarships a:hover {
+	color: rgb(230,230,230);
+}
+
+#news1, #news2, #news3 {
+	width: 260px;
+	margin-left: 40px;
+	margin-top: 10px;
+	float: left;
+	text-align: left;
+}
+
+#news1 img, #news2 img, #news3 img {
+	width: 250px;
+	padding-bottom: 25px;
+}
+
+#news1 a:link, #news2 a:link, #news3 a:link {
+	text-decoration: none;
+	color: rgb(95,95,95);
+}
+
+#news1 a:hover, #news2 a:hover, #news3 a:hover {
+	text-decoration: none;
+	color: rgb(27,111,149);
+}
+
+.title-link a {
+	color: rgb(95,95,95);
+	float: left;
+	width: 240px;
+}
+
+
+/*********** footer ***********/
+
+#footer {
+	height: 100px;
+	background-color: rgb(230,230,230);
+	box-shadow: 0px 0px 2px #888888;
+	font-size: 12px;
+	font-weight: 500;
+	padding-top: 25px;
+	margin-top: 30px;
+}
+
+#footer-content {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#address, #nav-footer, #social-networks {
+	width: 270px;
+	/*border: 1px solid black;*/
+	float: left;
+	padding-left:45px;
+	color: rgb(95,95,95);
+}
+
+#nav-footer {
+	float: left;
+}
+
+#nav-footer ul { list-style-type: none; }
+
+#nav-footer a { 
+	text-decoration: none; 
+	color: rgb(95,95,95);  
+}
+
+#nav-footer a:link { }
+#nav-footer a:hover { color: rgb(27,111,149); }
+#nav-footer a:visited { }
+
+
+#social-networks img { 
+	width: 25px;
+	height: 25px;
+	margin: 5px 10px 0px 0px; 
+}
