@@ -1,3 +1,5 @@
+##Flick Picks
+
 For this assignment, you will create a home page for a movie review called Flick Picks using responsive web design. You will begin by creating a comp in Photoshop for the desktop view of the home page only. Once you have developed the imagery and layout, you will code the pages using HTML5 and CSS3.
 
 
