@@ -1,0 +1,376 @@
+body {
+	/* you should always set a bg-color in a responsive because of the settings of different devices* /
+	background-color: rgb(255,255,255); */
+	background: -moz-linear-gradient(rgb(180,180,180), rgb(240,240,240));
+	color: rgb(51,51,51);
+	font: 85%/140% Helvetica, Arial, sans-serif;
+	max-width: 96%;
+	background: #styleguide-v2 {
+    margin: 0px;
+}
+
+}
+
+/****** change everything to percentage *********/
+
+h3 {
+	color: rgb(0,0,0);
+	padding: 3% 0;
+	margin: 3% 0 0 4%;
+	font-size: 145%;
+}
+
+p {
+	margin: 0 0 10%;
+}
+
+/* set html5 elements to block */
+article {
+	display: block;
+}
+
+#pagewrap {
+	width: 960px;
+	background-color: rgb(255,255,255);
+	max-width: 96%; 
+	margin: auto;
+
+	-webkit-box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.75);
+}
+
+.wrapper {
+	/* overflow is for precaution - if something is longer than the box, it will hidden */
+	overflow: hidden; 
+}
+
+
+
+
+
+p .search {
+	/*margin-top: 15%;	/* <----------------------------------  check it */
+	/*margin-left: 55%;
+*/
+	margin: 0;
+	
+	width: 15%;
+}
+
+.col {
+	float: left;
+	margin-left: 3.2%;
+
+}
+
+
+/* ********** navigation ********** */
+
+.navigation {
+	background-color: rgb(255,255,255);
+	margin-bottom: 1%;
+}
+
+.navigation .col article {
+	margin-top: 0;
+}
+
+.nav {
+	
+	background: -moz-linear-gradient(rgb(60,60,60), rgb(27,27,27));
+	padding: 4% 0;
+	margin-left: 0 !important;
+	/*margin-top: 5%;
+	*/
+}
+
+.nav p { text-align: center; margin-top: 5px; padding: 4px; font-weight: 600; letter-spacing:1px; } 
+.nav a { text-decoration: none;  }
+
+.nav a:link { color: rgb(255,255,255); }
+.nav a:hover { color: rgb(210,210,210); } /* <----------------------------------  change it */
+.nav a:visited { color: rgb(255,255,255); } /* <----------------------------------  change it */
+
+
+/* ********** movies box ********** */
+
+.movie {
+	background-color: rgb(255,255,255);
+	border: 1px solid rgb(232,232,232);
+	border-radius: 12px;				 /* <----------------------------------  change it */
+	padding: 5% 6% 5% 6%;
+	
+	margin: 2% 6%;
+}
+
+.movie img {
+	width: 95%;
+	height: 95%;
+}
+
+
+.movie p {
+	padding: 3% 0px 0px 0px;
+	font-size: 95%;
+}
+
+.movie h3 {
+	margin: 0px;
+	font-weight: bold;
+}
+
+.movie h3 a {
+	margin: 0px;
+	font-weight: bold;
+}
+
+
+
+.movie a {
+	text-decoration: none;
+	color: rgb(19,108,178);
+	font-weight: normal;
+}
+
+.movie a:link { color: rgb(19,108,178); }
+.movie a:hover { color: rgb(19,108,178); } /* <----------------------------------  change it */
+.movie a:visited { color: rgb(19,108,178); } /* <----------------------------------  change it */
+
+
+.genre {
+	margin: 0px;
+	color: #666;
+	margin-top: 2%;
+}
+
+.director {
+	margin: 0;
+	font-weight: bold;
+}
+
+.stars {
+	margin: 0px;
+	font-weight: bold;
+}
+
+.actors {
+}
+
+/* ********** individual movie ********** */
+
+.individualfilm {
+	border: 1px solid green;
+	height: 600px;
+	border: 1px solid rgb(232,232,232);
+	border-radius: 12px;
+	margin: 20px;
+}
+
+.moviealone {
+	background-color: rgb(255,255,255);
+	padding: 10px 15px 0 15px;
+	margin-left: 30px;
+	
+}
+
+.moviealone img {
+	width: 95%;
+	height: 95%;
+	margin: 10px;
+}
+
+
+.description {
+	margin: 20px 20px 0 0;
+}
+
+.description p {
+	padding: 3px 0px;
+	font-size: 95%;
+}
+
+.description h3 {
+	margin: 0px;
+	font-weight: bold;
+}
+
+.description h3 a {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 130%;
+}
+
+
+.description a {
+	text-decoration: none;
+	color: rgb(19,108,178);
+	font-weight: normal;
+}
+
+.description a:link { color: rgb(19,108,178); }
+.description a:hover { color: rgb(19,108,178); } /* <----------------------------------  change it */
+.description a:visited { color: rgb(19,108,178); } /* <----------------------------------  change it */
+
+.description .director {
+	margin-top: 10px;
+}
+
+.description .stars {
+	margin-bottom: 10px;
+}
+
+.moviepictures {
+	margin-top: 30px;
+}
+
+.moviepictures img {
+	width: 30%;
+	height: 30%;	
+}
+
+.moviepictures p {
+	margin-top: -10px;
+	font-weight: bold;
+}
+
+
+/* ********** footer ********** */
+
+.footer .col ul {
+	margin: 0;
+	padding: 1% 0;
+}
+
+.footer {
+	background-color: rgb(215,215,215);
+	padding: 2% 0;
+}
+
+
+.footer a { 
+	text-decoration: none; 
+	color: rgb(19,108,178); 
+}
+
+.footer ul { 
+	list-style-type: none; 
+	text-align: center;
+	margin-left: 0 !important;
+}
+
+.footer li {
+	display: inline;	
+}
+
+/* resize images */
+
+.footer img {
+	width: 3%;
+	margin-right: 1%;
+}
+
+/* ******************** ******************** ******************** */
+
+.grid7 .col {
+	width: 14.1%;
+	margin-left: 0.2%;
+	/*height: 0px;	/* <--------------------------------- here */
+}
+
+.grid3 .col {
+	width: 30%;
+}
+
+.grid2 .col {
+	width: 48%;
+	background-color: rgb(197, 16, 9);
+	padding: 0 1%;
+	margin: 0;	
+	/*height: 0px; /* rgb(197, 16, 9)<--------------------------------- here */
+}
+
+.grid2 .col p {
+	color: rgb(255,255,255);
+	font-weight: bold;
+	padding-top: 0.8%;
+	margin-top: 22.1%;
+	margin-left: 45%;
+	margin-bottom: 5.5%;	
+}
+
+.grid2 .col input {
+	border-radius: 25px;
+	color: rgb(95,95,95);
+}
+
+.grid2 .col img {
+	margin-left: 10%;
+}
+
+.fullwidth .col {
+	float: none;
+	margin-left: 0;
+}
+
+.grid7 .col:nth-of-type(7n+1),
+.grid3 .col:nth-of-type(3n+1),
+.grid2 .col:nth-of-type(2n+1) {
+	margin-left: 0;
+	clear: left;
+}
+
+/* ********** ********** ********** */
+
+/*when the max width is 600px do this*/
+@media screen and (max-width: 600px) {
+	
+	.grid7 .col {
+		width: 100%;
+		margin-left: 0;
+		clear: left;
+	}
+	
+	.grid3 .col {
+		width: 48.4%;
+	}
+	
+	.grid3 .col:nth-of-type(3n+1) {
+		margin-left: 3.2%;
+		clear: none;
+	}
+	
+	.grid3 .col:nth-of-type(2n+1) {
+		margin-left: 0;
+		clear: left;
+	}
+	
+	.grid2 .col {
+		background-color: rgb(197, 16, 9);
+	}
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+		
+	.col {
+		width: 100% !important;
+		margin-left: 0 !important;
+		clear: none !important;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
